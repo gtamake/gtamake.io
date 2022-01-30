@@ -1,0 +1,282 @@
+.bg {
+
+  background-image: url(gtavipic/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2? family = Rowdies: wght @ 700 & display = swap');
+
+  .container-form button{
+  
+  border:none;
+  background-color: transparent;
+  outline:none; 
+  
+  }
+  
+  .dws-menu *{
+  
+  padding-right: 50%;
+  margin:0;
+  padding: 0;
+  
+  
+  }
+  
+  #menu{
+  
+    font-family: 'Rowdies', cursive;
+    padding-right: 50%;
+    margin-left: 0%;
+  
+  }
+  
+  .dws-menu ul ,
+  .dws-menu ol {
+  
+    list-style: none;
+  
+  }
+  
+  .dws-menu > ul {
+  
+  
+  display: flex;
+  
+  
+  }
+  
+  .dws-menu > ul li a{
+  
+    
+  display: block;
+  background-color: #242323 ;
+  opacity: 0,1;
+  padding: 15px 38px 15px 48px ;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0,3s ease ;
+  
+  
+  }
+  
+  .dws-menu > ul li {
+  
+    
+    position: relative;
+    
+  }
+  
+  .dws-menu li a:hover{
+  
+    background: white;
+    color: black;
+    box-shadow: 1px 5px 10px -5px white;
+    transition: all 0,3s ease ;
+  
+  }
+  
+  .dws-menu li ul{
+  
+  position: absolute;
+  min-width: 150px;
+  display: none;
+  
+  }
+  
+  .dws-menu li>ul li{
+  
+  border: 1px solid rgb(31, 30, 30);
+  
+  }
+  
+  .dws-menu li>ul li a{
+  
+    padding: 10px;
+    text-transform: none;
+    background: #242323;
+  
+  }
+  
+  .dws-menu li>ul li ul{
+  
+  position: absolute;
+  right: -150px;
+  top: 0;
+  
+  }
+  
+  .dws-menu li:hover > ul{
+  
+  display:block;
+  
+  }
+
+.Logo {
+
+display: block;
+margin: auto;
+width: 16%;
+height: 16%;
+}
+.ccd {
+  height: 95px;
+  overflow: hidden;
+  width: 60%;
+  margin:0 auto;
+  position: relative;
+}
+
+a.ddott {
+  margin:0 auto;
+  display: block;
+  line-height: 50px;
+  height: 50px;
+  width: 24%;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 100px 0 #FFF,1px 76px 10px #000;
+  color: #FFF;
+  background: #5D8EC7;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+}
+a.ddott:hover {
+  text-shadow: 0 50px 0 #FFF, 1px 51px 20px #FFF;
+  margin-top: -50px;
+  height: 100px;
+  background: #222;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(RussoOne-Regular.ttf);
+}
+
+.info5{
+
+  font-family: myFirstFont;
+color: white;
+-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+}
+
+.info51{
+
+  font-family: myFirstFont;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  
+  }
+
+.info52{    
+  
+  text-align: center; 
+  font-family: myFirstFont;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+  
+  }
+
+*{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

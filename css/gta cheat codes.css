@@ -1,0 +1,113 @@
+.background {
+  
+  
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646; 
+
+}
+
+@import url('https://fonts.googleapis.com/css2? family = Rowdies: wght @ 700 & display = swap');
+
+.dws-menu *{
+
+padding-right: 50%;
+margin:0;
+padding: 0;
+
+
+}
+
+#menu{
+
+  font-family: 'Rowdies', cursive;
+  padding-right: 50%;
+  margin-left: 0%;
+
+}
+
+.dws-menu ul ,
+.dws-menu ol {
+
+  list-style: none;
+
+}
+
+.dws-menu > ul {
+
+
+display: flex;
+
+
+}
+
+.dws-menu > ul li a{
+
+  
+display: block;
+background-color: #242323 ;
+opacity: 0,1;
+padding: 15px 38px 15px 48px ;
+font-size: 14px;
+color: white;
+text-decoration: none;
+text-transform: none;
+transition: all 0,3s ease ;
+
+
+}
+
+.dws-menu > ul li {
+
+  
+  position: relative;
+  
+}
+
+.dws-menu li a:hover{
+
+  background: white;
+  color: black;
+  box-shadow: 1px 5px 10px -5px white;
+  transition: all 0,3s ease ;
+
+}
+
+.dws-menu li ul{
+
+position: absolute;
+min-width: 150px;
+display: none;
+
+}
+
+.dws-menu li>ul li{
+
+border: 1px solid rgb(31, 30, 30);
+
+}
+
+.dws-menu li>ul li a{
+
+  padding: 10px;
+  text-transform: none;
+  background: #242323;
+
+}
+
+.dws-menu li>ul li ul{
+
+position: absolute;
+right: -150px;
+top: 0;
+
+}
+
+.dws-menu li:hover > ul{
+
+display:block;
+
+}
